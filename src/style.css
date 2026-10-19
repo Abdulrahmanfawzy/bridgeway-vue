@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #3F3047;
+  --color-secondary: #EEF36A;
+}
+
+.app-container {
+  @apply mx-auto w-full px-5 lg:px-20;
+  max-width: 1440px;
+}
