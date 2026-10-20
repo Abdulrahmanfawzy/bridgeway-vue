@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import Logo from "../../assets/images/logo.svg";
-import ArrowIcon from "../../assets/images/arrow.svg";
+import Logo from "@/assets/images/logo.svg";
+import ArrowIcon from "@/assets/images/arrow.svg";
 import BaseButton from "../ui/BaseButton.vue";
 
 const links = [
