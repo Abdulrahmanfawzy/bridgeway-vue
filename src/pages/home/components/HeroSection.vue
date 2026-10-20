@@ -14,7 +14,7 @@ import HeroSectionMobile from "./HeroSectionMobile.vue";
         <img
         :src="HeroVectorBottom"
         alt="vector image"
-        class="absolute inset-0 -top-10 -z-10 h-auto w-full object-cover"
+        class="absolute left-1/2 top-[-2.5rem] -z-10 h-auto w-[calc(100%-4rem)] -translate-x-1/2 object-contain"
         />    
 
         <!-- Group the two images together -->
@@ -43,7 +43,7 @@ import HeroSectionMobile from "./HeroSectionMobile.vue";
 
         <div class="relative h-[85vh] min-h-162 max-h-180">
             <div
-                class="absolute inset-x-0 bottom-0 mx-auto flex w-full max-w-360  justify-evenly px-8"
+                class="absolute inset-x-0 bottom-0 mx-auto flex w-full max-w-360  justify-evenly "
             >
                 <h2 class="text-7xl font-extrabold text-secondary">
                 Your way to
