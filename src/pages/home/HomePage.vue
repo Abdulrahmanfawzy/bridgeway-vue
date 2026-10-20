@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import Navbar from '@/components/layout/Navbar.vue'
+import AppsSection from './components/AppsSection.vue';
+import HeroSection from './components/HeroSection.vue';
 </script>
 
 <template>
-    <Navbar />
+    <HeroSection />
+    <AppsSection />
 </template>
 
-<style scoped></style>

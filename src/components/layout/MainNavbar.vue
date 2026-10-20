@@ -15,14 +15,14 @@ const links = [
   <div
     class="app-container flex h-32 items-center justify-between lg:h-28"
   >
-    <div class="flex items-center gap-6 lg:gap-20">
+    <div class="lg:flex items-center gap-6 lg:gap-20">
       <img
         :src="Logo"
         alt="Bridgeway Logo"
-        class="w-32 shrink-0 lg:w-auto"
+        class="w-40 shrink-0 my-3 -mt-1 lg:mt-0 lg:my-0 lg:w-auto"
       />
 
-      <ul class="flex items-center gap-4 lg:gap-20">
+      <ul class="flex items-center -mb-10 lg:mb-0 gap-6 lg:gap-20">
         <li v-for="link in links" :key="link.href">
           <a
             :href="link.href"
